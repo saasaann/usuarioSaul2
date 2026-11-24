@@ -1,101 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Portfolio de Saúl</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Inicio - Mis opciones después del Bachillerato</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Abrir menú">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title">Menú</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="opciones.html">Opciones</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="salidas.html">Salidas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../../index.html">Portfolio</a>
-                            </li>
-                        </ul>
+    <video class="fondo-video" autoplay muted loop playsinline>
+        <source src="ejercicios/ejercicioweb/videos/video.mp4" type="video/mp4">
+    </video>
+
+    <div class="container mt-4">
+        <div class="caja d-flex flex-column flex-sm-row align-items-center gap-4">
+            <img src="imagen/AvatarMaker%20(1).png" class="avatar" alt="Mi avatar">
+            <div>
+                <h1>Portfolio de TIC</h1>
+                <p><strong>Saúl Sánchez García</strong> - 2º de Bachillerato - Salesianos San Juan Bosco, A Coruña</p>
+                <p class="mb-0">Me gusta mucho la informática y cuando acabe el Bachillerato quiero estudiar un grado de informática en la UDC. En TIC II he aprendido a hacer páginas web con HTML, CSS y Bootstrap. Aquí están las prácticas que he hecho este curso.</p>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100 rounded-0">
+                    <img src="imagen/Foto%20del%20proyecto%20Tim.jpg" class="card-img-top rounded-0" alt="Tim Berners-Lee">
+                    <div class="card-body">
+                        <h2 class="card-title">Tim Berners-Lee</h2>
+                        <p class="card-text">Mi primera web sobre HTML y Tim Berners-Lee.</p>
+                        <a href="ejercicios/ejercicio/index.html" class="button">Ver trabajo</a>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <main class="pt-5">
-        <div class="d-flex justify-content-center mt-5 pt-3">
-            <h1>Portfolio de TIC de Saúl Sánchez García 2026/2027</h1>
-        </div>
-
-        <div class="d-flex justify-content-center mt-4">
-            <div class="card content" style="max-width: 1080px; width: 100%">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="./imagen/AvatarMaker (1).png" class="img-fluid rounded-start" alt="Perfil de persona con barba y gafas de corazón">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
+            <div class="col">
+                <div class="card h-100 rounded-0">
+                    <img src="imagen/codigo.jpg" class="card-img-top rounded-0" alt="Código de programación">
+                    <div class="card-body">
+                        <h2 class="card-title">Opciones después de Bachillerato</h2>
+                        <p class="card-text">Web sobre los grados de informática de la UDC.</p>
+                        <a href="ejercicios/ejercicioweb/index.html" class="button">Ver trabajo</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container mt-3">
-            <div class="row row-cols-1 row-cols-md-2 g-3 justify-content-center">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="./imagen/Foto del proyecto Tim.jpg" class="card-img-top" alt="Tim Berners Lee">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="./ejercicios/ejercicio/index.html" class="btn btn-primary">Tim Berners Lee</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="./imagen/Foto de codigo.jpg" class="card-img-top" alt="Programacion">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <a href="./ejercicios/ejercicioweb/index.html" class="btn btn-primary">Opciones después de Bachillerato</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="text-center mt-4">
+        <p>TIC II - Portfolio - 2.º Bachillerato - 2026-2027</p>
+        <p>Contacto: <a href="mailto:saul.sanchez@aulasalesianoscoruna.es">saul.sanchez@aulasalesianoscoruna.es</a></p>
+        <p>Imágenes:</p>
+        <ul>
+            <li>Avatar hecho con <a href="https://avatarmaker.com">AvatarMaker</a></li>
+            <li>Foto de Tim Berners-Lee sacada de <a href="https://commons.wikimedia.org">Wikimedia Commons</a></li>
+            <li>"Programming code", de Martin Vorel. <a href="https://commons.wikimedia.org/wiki/File:Programming_code.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
