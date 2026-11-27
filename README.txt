@@ -32,7 +32,7 @@ FUENTE DE LAS IMÁGENES Y LICENCIAS
   Imagen recortada para adaptarla al mismo tamaño que la de Tim.
 
 - Vídeo de fondo (ejercicios/ejercicioweb/videos/video.mp4):
-  Vídeo de triángulos blancos procedente de Pexels.
+  Vídeo de triángulos blancos procedente de Pexels.  Vídeo de fondo de triángulos blancos, obtenido de https://www.pexels.com/
   Licencia de Pexels. Es el mismo que usé en la práctica de opciones
   después de Bachillerato.
 
