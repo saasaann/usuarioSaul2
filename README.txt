@@ -5,7 +5,7 @@ TIC II - Práctica 03: Página de inicio en servidor (Portfolio personal)
 
 Saúl Sánchez García - 2º de Bachillerato - Salesianos San Juan Bosco, A Coruña
 
-URL de acceso: http://saul.sanchez@salescoruna.ddns.net/usuarioSaul2/
+URL de acceso: http://salescoruna.ddns.net/saul.sanchez/usuarioSaul/
 Fecha de publicación: 27/11/2026
 
 

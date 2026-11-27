@@ -4,7 +4,7 @@
 
 **Saúl Sánchez García** - 2º de Bachillerato - Salesianos San Juan Bosco, A Coruña
 
-- **URL de acceso:** http://saul.sanchez@salescoruna.ddns.net/usuarioSaul2/
+- **URL de acceso:** http://salescoruna.ddns.net/saul.sanchez/usuarioSaul/
 - **Fecha de publicación:** 27/11/2026
 
 ## Contenido de la carpeta
@@ -22,7 +22,7 @@
   - Fuente: https://commons.wikimedia.org/wiki/File:Programming_code.jpg
   - Licencia: CC BY-SA 4.0.
   - Imagen recortada para adaptarla al mismo tamaño que la de Tim.
-- **Vídeo de fondo** (`ejercicios/ejercicioweb/videos/video.mp4`): vídeo de triángulos blancos de Pexels.
+- **Vídeo de fondo** (`ejercicios/ejercicioweb/videos/video.mp4`):  Vídeo de fondo de triángulos blancos, obtenido de https://www.pexels.com/ vídeo de triángulos blancos de Pexels.
   - Licencia de Pexels.
   - Es el mismo vídeo utilizado en la práctica de opciones después de Bachillerato.
 - **Imágenes de cada práctica:** sus fuentes están citadas en las respectivas páginas.
