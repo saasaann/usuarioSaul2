@@ -90,6 +90,11 @@ main {
   border: 1px solid #6b4226;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(22%) saturate(1200%) hue-rotate(343deg) brightness(90%);
+}
+
 .nav-tabs {
   margin-bottom: 20px;
 }
